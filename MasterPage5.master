@@ -1,0 +1,363 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage5.master.vb" Inherits="image_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>租圈</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        html, body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-image: url(images/bg.gif);
+        }
+        /**左邊選單**/#menu
+      {
+          width :97px;
+          float:left ;
+          margin :0;
+          padding :0;
+          
+      }
+      /**中間內文**/#context
+      {
+          width:851px;
+          float:left;
+          margin:0;
+          padding:0;
+      }
+        /** 主要框架 **/#wrapper
+        {
+            position: relative;
+            text-align: left;
+            width: 948px;
+            margin-left: auto;
+            margin-right: auto;
+            border-left: 1px solid #b8b8b8;
+            border-right: 1px solid #b8b8b8;
+            background: #FFFFFF;
+            background-image:url("images/menubg.gif");
+            background-repeat :repeat-y ;
+            background-position :left bottom;
+        }
+        /** 頁首 **/#header
+        {
+            width: 948px;
+            height: 107px;
+            border-left: 1px solid #b8b8b8;
+            border-right: 1px solid #b8b8b8;
+            margin: 0 auto;
+            padding :0;
+            background-image: url(images/topbg.gif);
+            position: relative;
+        }
+        /** 頁尾 **/#footer
+        {
+            clear: both;
+            text-align: center;
+            color:#ffffff;
+            font-size :80%;
+            background-image :url(images/topbg.gif);
+        }
+        /** 主要頁面 **/#mainOut
+        {
+            position: relative;
+            width: 851px;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: Transparent;
+            text-align: center;
+        }
+        /** 公告 **/.notic
+        {
+            width: 575px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            display:inline;
+            border :1px #b8b8b8 solid;
+        }
+        /** 登入區 **/#right
+        {
+            width: 215px;
+            float: left;
+            margin-top: 8px;
+            margin-left: 8px;
+            border: 0px #b8b8b8 solid;
+            padding :0;
+            display:inline;
+        }
+        /** 熱門商品 **/#center
+        {
+            width: 600px;
+            float: left;
+            background-color: #FFFFFF;
+            margin-top: 10px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            height: 10em;
+            display:inline;
+        }
+        /**使用者選單**/.userlist
+        {
+            width: 215px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 24px;
+            border: 1px #b8b8b8 solid;
+            display:inline;
+            font-size :80%;
+        }
+        .userlist ul li
+        {
+            margin :0px;
+            padding :0px;
+           
+        }
+         .userlist ul
+        {
+            margin :0px;
+            padding :0px;
+            list-style-type :none;
+           
+        }
+        #notice_list dt
+        {
+            text-align: left;
+            font-size: 90%;
+            color: Red;
+        }
+        #notice_list dd
+        {
+            text-align: left;
+            margin-left: 10px;
+            font-size: 90%;
+            color: #b8b8b8;
+        }
+        /** 分類目錄 **/#c_top
+        {
+            width: 600px;
+            float: left;
+            background-color: #FFFFFF;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            display:inline;
+
+        }
+        /** 頁首右上角區塊 **/#topsel
+        {
+            width: 600px;
+            float: right;
+            line-height: 24px;
+            font-size: 11px;
+            background: url(images/topselbg.gif);
+            font-size: 12px;
+            color: #5a5a5a;
+        }
+        /** 頁首右上角區塊文字 **/span.nt_topSel1
+        {
+            float: left;
+            margin-left: 50px;
+            display:inline;
+        }
+        span.nt_topSel1 a
+        {
+            color: #5a5a5a;
+            text-decoration: none;
+        }
+        span.nt_topSel1 a:hover
+        {
+            text-decoration: underline;
+        }
+        span.nt_topSel2
+        {
+            float: right;
+            margin-right: 20px;
+        }
+        span.nt_topSel2 a
+        {
+            color: #5a5a5a;
+            text-decoration: none;
+        }
+        span.nt_topSel2 a:hover
+        {
+            text-decoration: underline;
+        }
+        /** 搜尋BAR **/#searchbar
+        {
+            float: right;
+            width :auto;
+            margin-top: 25px;
+            margin-right: 120px;
+            _margin-top: 25px;
+            _margin-right: 60px;
+            padding:0px;
+        }
+        /**LOGO**/#logo
+        {
+            float:left;
+            width:281px;
+            height :106px;
+            margin-left :24px;
+            _margin-left:12px;
+        }
+        h2
+        {
+            font-size: 80%;
+        }
+        /**簡易小標**/.section
+        {
+            text-align :left;
+            color:#66cc00;
+            font-size :small ;
+            font-weight :bold;
+            border-bottom :3px dotted #FF6600;
+            border-left:8px solid #FF9900;
+            line-height :200%;
+            padding-left :10px;
+        }
+        .menubg
+        {
+            background-color :#849c23;
+            margin :0;
+            padding :0;
+        }
+        .sitemappath
+        {
+            border-bottom :8px solid #ff9900;
+            font-size:80%;
+        }
+        #userhead
+        {
+            background-color :#fff1b0;
+            border: 1px solid #ff9900;
+            width :800px;
+            height:7em ;
+            margin : 0 auto;
+            margin-top:10px;
+           
+        }
+        .join
+        {
+            float:left;
+            width :350px;
+            background-color :#ffffff;
+            border :2px solid #ff9900;
+            margin-left:30px;
+            margin-top:14px;
+            text-align :center ;
+            font-size :80%;
+            display:inline;
+        }
+        .login
+        {
+            float:left;
+            width :350px;
+            background-color :#ffffff;
+            border :2px solid #ff9900;
+            margin-left:30px;
+            margin-top:14px; 
+            text-align :center ;
+            font-size :80%;
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--頁首開始-->
+ <div id="header">
+<div id="topsel">
+<span class="nt_topSel2"><a href="Default14.aspx">我的租圈</a>│<a href="Default5.aspx">會員中心</a>│<asp:LinkButton ID="LinkButton1" runat="server">新手上路</asp:LinkButton>│<a href="Default8.aspx">客服中心</a>│<asp:LoginName
+    ID="LoginName1" runat="server" />
+    [<asp:LoginStatus ID="LoginStatus1" runat="server" />]</span>
+</div>
+<div id="logo">
+ <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl ="~/Default.aspx" 
+        BorderStyle="None" BorderWidth="0px"><img src="images/logo.jpg"  align="left" style="height: 107px; width: 255px" alt="LOGO" border="0" /></asp:HyperLink>
+
+</div>
+<div id="searchbar"><!--搜尋BAR-->
+<table border="0">
+<tr>
+
+<td>
+<asp:TextBox ID="TextBox1" runat="server" Width="385px"></asp:TextBox>
+</td>
+<td>
+    <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:ListItem>所有</asp:ListItem>
+        <asp:ListItem>租賃</asp:ListItem>
+        <asp:ListItem>交換</asp:ListItem>
+    </asp:DropDownList>
+</td>
+<td>
+<asp:Button ID="Button1" runat="server" Text="搜尋" />
+</td>
+</tr>
+    
+    
+    </table>
+</div>
+
+    </div>
+    <!--頁首結束-->
+
+    <div id="wrapper">
+    <div id="menu">
+                
+<table id="___01" width="97" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="Default.aspx">
+				<img src="images/MenuV_01.gif" width="23" height="119" border="0" alt=""></a></td>
+		<div class ="menubg"><td rowspan="5">
+			<img src="images/MenuV_025.gif" width="74" height="617" alt=""></td></div>
+	</tr>
+	<tr>
+		<td>
+			<a href="Default2.aspx">
+				<img src="images/MenuV_03.gif" width="23" height="109" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="Default3.aspx">
+				<img src="images/MenuV_04.gif" width="23" height="110" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="Default4.aspx">
+				<img src="images/MenuV_05.gif" width="23" height="110" border="0" alt=""></a></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/MenuV_06.gif" width="23" height="169" alt=""></td>
+	</tr>
+</table>
+                
+    </div>
+    <div id="context">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <!--頁尾開始-->
+    <div id="footer">
+<br />
+        Copyright © 2009 租圈 All Rights Reserved.<br />
+        本網站已依台灣網站內容分級規定處理 </div>
+    <!--頁尾結束-->
+    </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+//夋???
+&btNum=5&
+
+//僗僋?乕?僗僺乕僪(?傪戝偒偔偡傞偲抶偔側傝傑偡)
+&scSpd=50&
+
+//攚宨怓
+&bkc=ff9900&
+
+//夋?偺柤慜
+&img0=http://114.33.224.36/rent/Teaching/ch/nuteaching/0.jpg&
+&img1=http://114.33.224.36/rent/Teaching/ch/nuteaching/1.jpg&
+&img2=http://114.33.224.36/rent/Teaching/ch/nuteaching/2.jpg&
+&img3=http://114.33.224.36/rent/Teaching/ch/nuteaching/3.jpg&
+&img4=http://114.33.224.36/rent/Teaching/ch/nuteaching/4.jpg&
+&img5=http://114.33.224.36/rent/Teaching/ch/nuteaching/5.jpg&
+
+//愢柧暥
+&tx0= 伴ユ传毙厩 !!&
+&tx1=夋˙艼匡拒璶ユ传坝珇и璶ユ传坝珇暥&
+&tx2=夋˙艼匡拒璶ユ传坝珇匡暥&
+&tx3=夋˙艼匡穦瞷叫―Θ癟暥&
+&tx4=夋˙艼ユ传坝珇翴匡ユ传叫―叫―い篈&
+&tx5=夋˙艼きユ传毙厩挡&

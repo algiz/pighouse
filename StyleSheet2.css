@@ -1,0 +1,93 @@
+﻿body {
+}
+.product-intro
+{
+    border :1px solid #b8b8b8;
+    width :900px;
+    margin-top:5px;
+    margin-left :10px;
+    margin-bottom :5px;
+    
+}
+#content
+{
+
+}
+.sitemappath
+{
+    font-size :80%;
+}
+.idTabs
+{
+    background-color:#ffffff;
+    margin :0;
+    padding:0;
+    height :30px;
+    margin-bottom:20px;
+    border :1px solid #000000;
+}
+
+    
+.idTabs li
+{
+ text-align :left;
+ color:#66cc00;
+ font-size :80%;
+ font-weight :bold;
+ border-bottom :3px dotted #FF6600;
+ border-left:8px solid #FF9900;
+ line-height :200%;
+ padding-left :10px;  
+ float :left ;
+ width: 100px;
+ list-style: none;
+}
+  .producttitle
+    {
+        margin:3px;
+        background-color :#f38630;
+        width:894px;
+    }
+        .productpic
+    {
+        border :1px solid #b8b8b8;
+        float:left;
+        width:400px;
+        margin :10px;
+        text-align :center ;
+        display:inline;
+    }
+    .productinfo
+    {
+        width :460px;
+        border :1px solid #b8b8b8;
+        margin-top:10px;
+        float :right;
+        margin-right:10px;
+        display:inline;
+        font-size :80%;
+    }
+    .inproinfo
+    {
+        border-bottom :3px solid #b4bebd;
+    }
+    .inproinfo ul
+    {
+        list-style :none;
+        margin:0px;
+        padding :0px;
+    }
+    .inproinfo ul li
+    {
+        margin:10px; 
+
+    }
+    .userinfo
+    {
+        float:right ;
+        width:200px;
+        border :1px solid #b8b8b8;
+        margin-right:10px;
+        display :inline ;
+        line-height :24px;
+    }

@@ -1,0 +1,27 @@
+//‰æ???
+&btNum=6&
+
+//ƒXƒN?[?ƒXƒs[ƒh(?‚ð‘å‚«‚­‚·‚é‚Æ’x‚­‚È‚è‚Ü‚·)
+&scSpd=50&
+
+//”wŒiF
+&bkc=ff9900&
+
+//‰æ?‚Ì–¼‘O
+&img0=http://114.33.224.36/rent/Teaching/po/nuteaching/0.jpg&
+&img1=http://114.33.224.36/rent/Teaching/po/nuteaching/1.jpg&
+&img2=http://114.33.224.36/rent/Teaching/po/nuteaching/2.jpg&
+&img3=http://114.33.224.36/rent/Teaching/po/nuteaching/3.jpg&
+&img4=http://114.33.224.36/rent/Teaching/po/nuteaching/4.jpg&
+&img5=http://114.33.224.36/rent/Teaching/po/nuteaching/5.jpg&
+&img6=http://114.33.224.36/rent/Teaching/po/nuteaching/6.jpg&
+
+//à–¾•¶
+&tx0= ¯²°éÀx­È±Ð¾Ç !!&
+&tx1=‰æ¨BÆJ¤@¡G(1)	­º­¶¥k¤è¡u·|­ûµn¤J¡v¤¤¥i«ö¡u§Ú­nÀx­È¡v•¶&
+&tx2=‰æ¨BÆJ¤G¡G(2)	¶i¤J¡u·|­û¤¤¤ß¡v¡A¥i¥H¶i¦æÀx­È•¶&
+&tx3=‰æ¨BÆJ¤T¡G¿é¤J§Ç¸¹
+•¶&
+&tx4=‰æ¨BÆJ¥|¡GÅã¥Ü¡uÀx­È¦¨¥\¡v°T®§ &
+&tx5=‰æ¨BÆJ¤­¡G¨ì¡u§Úªº¯²°é¡vªº·|­û¸ê®Æ¬d¬Ý¡uµêÀÀ³f¹ô¡v¬O§_¼W¥[ &
+&tx6=‰æÀx­È±Ð¾Çµ²§ô•¶&

@@ -1,0 +1,119 @@
+﻿body {
+}
+.category
+{
+    width :830px;
+    margin-top:10px;
+    margin-left:10px;
+}
+    #search_area
+    {
+        float:left ;
+        width :200px;
+        margin-left :5px;
+        margin-top :5px;
+        display :inline ;
+        background-image :url(images/searchbg.png);
+        background-repeat :no-repeat ;
+        background-position :top left ;
+        padding-top:20px;
+        padding-left :10px;
+        line-height :18px;
+        
+    }
+    .publicity
+    {
+        background-image :url(images/publicitybg.png);
+        background-repeat :no-repeat ;
+        background-position :top left ;
+        padding-top:20px;
+        padding-left:14px;
+        margin-left :-8px;
+        margin-top :-8px;
+    }
+    .searchoutcome
+{
+    float:right ;
+    width:605px;
+    margin-right:0px;
+    margin-top:5px;
+    font-size :80%;
+    display :inline ;
+}
+.searchoutcome a
+{
+    color: #5a5a5a;
+    margin-left :10px;
+}
+.searchoutcome a:hover
+{
+    background :#5a5a5a;
+    color:White ;
+}
+.minpic
+{
+    width :121px;
+    height :7em;
+    margin:5px;
+    float :left ;
+    text-align :center ;
+    display :inline ;
+}
+    .productview
+    {
+        width:280px;
+        border:2px solid #c9cfcf;
+        margin-top:10px;
+        margin-left:10px;
+        background-color :#f9fcfc;
+    }
+    .productinfo
+    {
+    width :130px;
+    height :7em;
+    margin:5px 5px 5px 0px;
+    float :right ;
+    display :inline ;
+    }
+    .productinfo ul
+    {
+        margin: 0px;
+        padding:0px;
+        list-style:none;
+    }
+    .productinfo li
+    {
+        margin:0px;
+        margin-bottom :5px;
+    }
+    .listviewstyle a
+    {
+        color: #112222;
+        text-decoration: none;
+    }
+    .listviewstyle a:hover
+    {
+        text-decoration: underline;
+    }
+    .advertising
+    {
+        background-image:url(images/advertisingbottom.png); 
+        background-repeat:no-repeat; 
+        background-position :bottom left ;
+    }
+    .advertisingbottom
+    {
+        background-image:url(images/advertisingbg.png); 
+        background-repeat:no-repeat; 
+        background-position :top left ;
+        
+    }
+    ..advertising a
+    {
+        text-decoration :none;
+    }
+    .publicity a
+    {
+        text-decoration :none;
+    }
+    
